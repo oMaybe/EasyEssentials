@@ -1,0 +1,25 @@
+name: EasyEssentials
+author: oMaybe
+version: 1.5
+description: Essentials remastered
+main: com.maybe.easyessentials.Main
+commands:
+  gm:
+  speed:
+  fly:
+  emoji:
+  heal:
+  tt:
+  tr:
+  mute:
+  ss:
+  staffchat:
+  rank:
+  broadcast:
+  msg:
+  reply:
+  help:
+  admin:
+  bc:
+  kaboom:
+  vanish:
