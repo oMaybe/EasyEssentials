@@ -78,29 +78,6 @@ public class Event implements Listener {
 		}
 	}
 	
-	@EventHandler
-	public void onBlock(BlockBreakEvent e) {
-		Block b = e.getBlock();
-		String block = b.getTypeId() + ":" + b.getData() + ":" + b.getWorld().getName() + 
-				":" + b.getX() + ":" + b.getY() + ":" + b.getZ();
-		CHANGES.add(block);
-	}
-	
-	@EventHandler
-	public void onPlace(BlockPlaceEvent e) {
-		Block b = e.getBlock();
-		String block = b.getTypeId() + ":" + b.getData() + ":" + b.getWorld().getName() + 
-				":" + b.getX() + ":" + b.getY() + ":" + b.getZ();
-		CHANGES.add(block);
-	}
-	
-	@EventHandler 
-	public void onPoop(EntityChangeBlockEvent e) {
-		Block b = e.getBlock();
-		String block = b.getTypeId() + ":" + b.getData() + ":" + b.getWorld().getName() + 
-				":" + b.getX() + ":" + b.getY() + ":" + b.getZ();
-		CHANGES.add(block);
-	}
 	
 	
 }
